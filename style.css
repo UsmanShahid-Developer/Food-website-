@@ -67,3 +67,28 @@
 .card1{
     border-radius: 1rem;
 }
+.text3{
+    margin-top: 5rem;
+}
+.img4{
+    border-radius: 40rem;
+    width: 150px;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+.text5{
+    margin-top: 9rem;
+    
+}
+.btn5{
+    background-color: rgb(255, 218, 53);
+
+}
+.btn5:hover{
+    background-color: rgb(235, 226, 211);
+    color: rgb(185, 27, 27);
+    border: 1px solid rgb(173, 34, 34);
+}
+.text6{
+margin-top: 90px;
+}

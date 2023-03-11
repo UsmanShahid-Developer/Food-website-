@@ -8,7 +8,7 @@
     border: 1px solid rgb(173, 34, 34);
 }
 .nav-color{
-    color: rgb(230, 216, 216);
+    color: rgb(255, 255, 255);
 }
 .nav-color:hover{
     color:rgb(255, 218, 53);
@@ -36,4 +36,34 @@
     background-color: rgb(235, 226, 211);
     color: rgb(178, 34, 34);
     border: 1px solid rgb(173, 34, 34);
+}
+::-webkit-scrollbar{
+    width: 0.623rem;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(240, 164, 23);
+}
+.img1{
+    border-radius: 5rem;
+}
+.btn3{
+    background-color: rgb(255, 218, 53);
+}
+.btn3:hover{
+    background-color: rgb(235, 226, 211);
+    color: rgb(185, 27, 27);
+    border: 1px solid rgb(173, 34, 34);
+}
+.img2{
+    border-radius: 5rem;
+    margin-top: 9rem;
+}
+.text2{
+    margin-top: 15rem;
+}
+.card1{
+    border-radius: 1rem;
 }

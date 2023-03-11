@@ -1,0 +1,15 @@
+.btn1{
+    border: none;
+    background-color: rgb(255, 218, 53);
+}
+.btn1:hover{
+    background-color: rgb(235, 226, 211);
+    color: rgb(178, 34, 34);
+    border: 1px solid rgb(173, 34, 34);
+}
+.nav-color{
+    color: black;
+}
+.nav-color:hover{
+    color:rgb(255, 218, 53);
+}

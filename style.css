@@ -8,8 +8,32 @@
     border: 1px solid rgb(173, 34, 34);
 }
 .nav-color{
-    color: black;
+    color: rgb(230, 216, 216);
 }
 .nav-color:hover{
     color:rgb(255, 218, 53);
+}
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.9 ease-out;
+}
+.bg-1{
+    background-image: url(./images/bg/bg-1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 16.875rem 0 9.543rem ;
+    
+}
+.btn2{
+    border: none;
+    background-color: rgb(255, 218, 53);
+}
+.btn2:hover{
+    background-color: rgb(235, 226, 211);
+    color: rgb(178, 34, 34);
+    border: 1px solid rgb(173, 34, 34);
 }

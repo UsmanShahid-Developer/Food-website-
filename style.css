@@ -1,11 +1,12 @@
 .btn1{
     border: none;
     background-color: rgb(255, 218, 53);
+    transition-duration: 2s;
 }
 .btn1:hover{
+    width: 200px;
     background-color: rgb(235, 226, 211);
     color: rgb(178, 34, 34);
-    border: 1px solid rgb(173, 34, 34);
 }
 .nav-color{
     color: rgb(255, 255, 255);
@@ -31,11 +32,12 @@
 .btn2{
     border: none;
     background-color: rgb(255, 218, 53);
+    transition-duration: 2s;
 }
 .btn2:hover{
+    width: 200px;
     background-color: rgb(235, 226, 211);
     color: rgb(178, 34, 34);
-    border: 1px solid rgb(173, 34, 34);
 }
 ::-webkit-scrollbar{
     width: 0.623rem;
@@ -48,14 +50,20 @@
 }
 .img1{
     border-radius: 5rem;
+    position: relative;
+    animation-name: logo5;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 .btn3{
     background-color: rgb(255, 218, 53);
+    transition-duration: 2s;
 }
 .btn3:hover{
+    width: 200px;
     background-color: rgb(235, 226, 211);
-    color: rgb(185, 27, 27);
-    border: 1px solid rgb(173, 34, 34);
+    color: rgb(178, 34, 34);
 }
 .img2{
     border-radius: 5rem;
@@ -82,13 +90,86 @@
 }
 .btn5{
     background-color: rgb(255, 218, 53);
+    transition-duration: 2s;
 
 }
 .btn5:hover{
+    width: 200px;
     background-color: rgb(235, 226, 211);
-    color: rgb(185, 27, 27);
-    border: 1px solid rgb(173, 34, 34);
+    color: rgb(178, 34, 34);
 }
 .text6{
 margin-top: 90px;
+}
+.logo1{
+
+    position: relative;
+    animation-name: usman1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes usman1 {
+    from{
+        left: 2px;
+        
+    }
+    to{
+        left: 50px;
+       right: 50px;
+      }
+}
+.logo2{
+    position: relative;
+    animation-name: logo2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes logo2 {
+    from{
+        top: 2px;
+        
+    }
+    to{
+        top: 50px;
+      }
+}
+.logo3{
+    position: relative;
+    animation-name: logo3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes logo3 {
+    from{
+        top: 2px;
+        
+    }
+    to{
+        top: 50px;
+      }
+}
+.logo4{
+    position: relative;
+    animation-name: logo4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes logo4 {
+    from{
+        left: 2px;
+    }
+    to{
+        left: 30px;
+    }
+}
+@keyframes logo5 {
+    from{
+        top: 9px;
+    }
+    to{
+        top: 90px; 
+    }
 }

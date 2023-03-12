@@ -20,8 +20,8 @@
     <nav class="navbar navbar-expand-lg navigation-wrap">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="./images/logo.png" alt="" class="img-fluid">
-          </a>
+            <img src="./images/logo.png" alt="" class="img-fluid logo1">
+        </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <!-- <span class="navbar-toggler-icon"></span> -->
             <i class="fas fa-stream navbar-toggler-icon"></i>
@@ -32,16 +32,19 @@
                 <a class="nav-link active text-warning fw-bold " aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  fw-bold nav-color" href="#about">About us</a>
+                <a class="nav-link  fw-bold nav-color" href="#about us">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-color  fw-bold" href="#explore-food">Explore-foods</a>
+                <a class="nav-link nav-color  fw-bold" href="#explore">Explore-foods</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  nav-color fw-bold" href="#testimonial">Reviews</a>
+                <a class="nav-link  nav-color fw-bold" href="#review">Reviews</a>
               </li>
               <li>
-                <button class="btn1 btn-lg fw-bold" >1200 345 123</button>
+                <a class="nav-link" href="#contact">
+                    <button class="btn1 btn-lg fw-bold" >1200 345 123</button>
+                </a>
+
               </li>
             </ul>
           </div>
@@ -51,6 +54,7 @@
 
 <main>
     <!-- section one.......................... -->
+  <section id="home">
     <div class="container-fluid bg-1 px-0 top-banner">
         <div class="container">
             <div class="row">
@@ -70,48 +74,51 @@
             </div>
         </div>
     </div>
+  </section>
     <!-- section two.................................. -->
+   <section id="about us">
     <div class="container">
         <h1 class="text-success text-center mt-5 mb-5 ">Our Menu</h1>
         <div class="row ">
             <div class="col-lg-2 col-md-4 col-sm-12 ">
                 <div class="card border border-0 ">
-                    <img src="./images/img/category1.png" alt="" style="width: 150px;" class="img-fluid mx-auto mt-2">
-                    <h6 class="fw-bold text-center">PIZZA</h6>
+                    <img src="./images/img/category1.png" alt="" style="width: 150px;" class="img-fluid mx-auto mt-2 logo2">
+                    <h6 class="fw-bold text-center logo2">PIZZA</h6>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-12">
                 <div class="card border border-0 ">
-                    <img src="./images/img/category2.png" alt="" style="width: 150px;" class="img-fluid mx-auto mt-2">
-                    <h6 class="fw-bold text-center">SAUCES</h6>
+                    <img src="./images/img/category2.png" alt="" style="width: 150px;" class="img-fluid mx-auto mt-2 logo3">
+                    <h6 class="fw-bold text-center logo3">SAUCES</h6>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-12">
                 <div class="card border border-0 ">
-                    <img src="./images/img/category3.png" alt="" style="width: 150px; "class="img-fluid mx-auto">
-                    <h6 class="fw-bold text-center">COMBO</h6>
+                    <img src="./images/img/category3.png" alt="" style="width: 150px; "class="img-fluid mx-auto logo4">
+                    <h6 class="fw-bold text-center logo4">COMBO</h6>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-12">
                 <div class="card border border-0 ">
-                    <img src="./images/img/category4.png" alt="" style="width: 150px; "class="img-fluid mx-auto mt-3">
-                    <h6 class="fw-bold text-center">KIDS-MENUS</h6>
+                    <img src="./images/img/category4.png" alt="" style="width: 150px; "class="img-fluid mx-auto mt-3 logo4">
+                    <h6 class="fw-bold text-center logo4">KIDS-MENUS</h6>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-12">
                 <div class="card border border-0 ">
-                    <img src="./images/img/category5.png" alt="" style="width: 150px;  "class="img-fluid mx-auto mt-3">
-                    <h6 class="fw-bold text-center">CHICKEN</h6>
+                    <img src="./images/img/category5.png" alt="" style="width: 150px;  "class="img-fluid mx-auto mt-3 logo2">
+                    <h6 class="fw-bold text-center logo2">CHICKEN</h6>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-sm-12">
                 <div class="card border border-0 ">
-                    <img src="./images/img/category6.png" alt=""  style="width: 150px;"  class="img-fluid mx-auto mt-2">
-                    <h6 class="fw-bold text-center">BOX-MEALS</h6>
+                    <img src="./images/img/category6.png" alt=""  style="width: 150px;"  class="img-fluid mx-auto mt-2 logo3">
+                    <h6 class="fw-bold text-center logo3">BOX-MEALS</h6>
                 </div>
             </div>
         </div>
     </div>
+   </section>
     <!-- section third.............................. -->
 <div class="container-fluid bg-dark mt-5">
     <div class="container ">
@@ -144,7 +151,8 @@
         </div>
     </div>
 </div>
-<h1 class="text-success text-center mt-5 mb-5 ">Explore Our Foods</h1>
+<section id="explore">
+    <h1 class="text-success text-center mt-5 mb-5 ">Explore Our Foods</h1>
 <p class="text-center ps-5 pe-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at repellat molestiae in voluptate. Sequi tempore harum, delectus inventore fuga, quas cumque animi earum sit nihil dolore, provident a assumenda.
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at repellat molestiae in voluptate. Sequi tempore harum, delectus inventore fuga, quas cumque animi earum sit nihil dolore, provident a assumenda.
 </p>
@@ -179,9 +187,11 @@
         </div>
     </div>
 </div>
+</section>
 </main>
 
 <footer>
+<section id="review">
     <div class="container-fluid bg-success mt-5">
         <div class="container">
             <div class="row">
@@ -241,6 +251,8 @@
             </div>
         </div>
     </div>
+</section>
+  <section id="contact">
     <div class="container-fluid bg-dark">
         <div class="container">
             <div class="row">
@@ -265,6 +277,8 @@
 
         </div>
     </div>
+  </section>
+
 </footer>
 <!-- JS CDN.................................... -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
